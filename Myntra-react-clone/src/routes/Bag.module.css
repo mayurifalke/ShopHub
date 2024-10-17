@@ -1,0 +1,13 @@
+.bagpage{
+  display: flex;
+}
+@media (max-width: 967px) {
+  .bagpage{
+    flex-direction: column;
+  }
+  .bagitems{
+    float: left;
+    margin-left: 0px;
+    width: 21rem;
+  }
+}

@@ -1,0 +1,28 @@
+.search{
+  display: none;
+}
+@media (max-width: 1127px) {
+  .nav {
+    display: none;  /* Hide by default on small screens */ 
+  }
+}
+@media (max-width: 577px) {
+  .searchbar {
+    display: block;
+    width: 100%;
+   /* Optional: add space between elements */
+  }
+
+  .searchinput {
+    /* margin-top: 110px; */
+    display: none;
+  }
+  .searchicon{
+    display: none;
+  }
+  .search{
+    margin: 0px 5px;
+    display: inline;
+    width: 100%;
+  }
+}
