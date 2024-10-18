@@ -25,7 +25,7 @@ const HomeItems = ({ item }) => {
   return (
     <div className="item-container" id="productImage">
       <img className="item-image " src={item.image} alt="item image" style={{height:250}}/>
-       <img src="../../public/images/1.jpg" alt="" />     
+       {/* <img src="../../public/images/1.jpg" alt="" />      */}
       {console.log(item.image)}
       <div className="content">
         <center>
