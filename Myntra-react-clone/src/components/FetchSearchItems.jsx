@@ -16,7 +16,7 @@ const FetchSearchItems = () => {
     const controller = new AbortController();
     const signal = controller.signal;
 
-    fetch("http://localhost:8080/items", { signal })
+    fetch("https://shophub-jxdl.onrender.com/items", { signal })
       .then((res) => res.json())
       .then((json) => {
         // Access the first element of the nested array structure

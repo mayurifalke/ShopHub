@@ -15,7 +15,7 @@ const FetchItems = () => {
       const signal = controller.signal;
 
       dispatch(fetchActions.CurrentFetchStartStatus());
-      fetch("http://localhost:8080/items", { signal })
+      fetch("https://shophub-jxdl.onrender.com/items", { signal })
         .then((res) => res.json())
         .then(({ items }) => {
           dispatch(fetchActions.FetchDoneStatus());

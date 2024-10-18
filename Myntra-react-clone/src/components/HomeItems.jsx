@@ -24,7 +24,9 @@ const HomeItems = ({ item }) => {
   const isPresent = wishlistIds.indexOf(item.id) >= 0;
   return (
     <div className="item-container" id="productImage">
-      <img className="item-image " src={item.image} alt="item image" style={{height:250}}/>
+      <img className="item-image " src={`../../public/${item.image}`} alt="item image" style={{height:250}}/>
+       {/* <img src="../../public/images/1.jpg" alt="" />      */}
+      {console.log(item.image)}
       <div className="content">
         <center>
           {isPresent ? (
