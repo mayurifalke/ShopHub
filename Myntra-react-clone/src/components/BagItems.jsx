@@ -21,6 +21,7 @@ const BagItems = () => {
                     src={item.image}
                     alt={item.item_name}
                   />
+                  {console.log(item.image)}
                 </div>
                 <div className="item-right-part">
                   <div className="company">{item.company}</div>
